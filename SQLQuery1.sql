@@ -92,7 +92,7 @@ Select *, (TotalPeopleVaccinated/Population)*100
 from PopvsVac
 
 
--- TEMP TABLE
+-- Using TEMP TABLE
 DROP Table if exists #PercentPopulationVaccinated
 Create Table #PercentPopulationVaccinated
 (
